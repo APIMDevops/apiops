@@ -1,0 +1,59 @@
+openapi: 3.0.1
+info:
+  title: LAapiCall
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://trainingapimoauth.azure-api.net
+paths:
+  /LAapicall:
+    post:
+      summary: LAapicall
+      operationId: laapicall
+      responses:
+        '200':
+          description: ''
+  /check:
+    post:
+      summary: check
+      operationId: operationid-check
+      parameters:
+        - name: empID
+          in: query
+          description: EmployeeID
+          required: true
+          schema:
+            type: ''
+        - name: code
+          in: query
+          description: EmployeeeCode
+          schema:
+            type: ''
+        - name: Content-Type
+          in: header
+          schema:
+            type: String
+      responses:
+        '200':
+          description: ''
+  /functionapp:
+    post:
+      summary: FunctionApp
+      description: Function call
+      operationId: functionapp
+      responses:
+        '200':
+          description: ''
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]

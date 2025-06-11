@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "scope": "/subscriptions/86986ba7-9d80-464e-bbed-2157e2dd5997/resourceGroups/Training/providers/Microsoft.ApiManagement/service/TrainingAPIMOAUTH/products/starter",
+    "allowTracing": false,
+    "ownerId": "/subscriptions/86986ba7-9d80-464e-bbed-2157e2dd5997/resourceGroups/Training/providers/Microsoft.ApiManagement/service/TrainingAPIMOAUTH/users/1",
+    "state": "active"
+  }
+}

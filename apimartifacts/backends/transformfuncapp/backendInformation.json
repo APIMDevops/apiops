@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "credentials": {
+      "header": {
+        "x-functions-key": [
+          "{{transformfuncapp-key}}"
+        ]
+      }
+    },
+    "description": "TransformFuncApp",
+    "protocol": "http",
+    "resourceId": "https://management.azure.com/subscriptions/86986ba7-9d80-464e-bbed-2157e2dd5997/resourceGroups/Training/providers/Microsoft.Web/sites/TransformFuncApp",
+    "url": "https://transformfuncapp.azurewebsites.net/api"
+  }
+}

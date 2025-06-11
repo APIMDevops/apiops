@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "displayName": "backendIdName",
+    "secret": false,
+    "tags": [],
+    "value": "transformfuncapp"
+  }
+}

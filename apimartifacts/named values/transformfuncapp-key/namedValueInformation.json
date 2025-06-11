@@ -1,0 +1,11 @@
+{
+  "properties": {
+    "displayName": "transformfuncapp-key",
+    "secret": true,
+    "tags": [
+      "key",
+      "function",
+      "auto"
+    ]
+  }
+}
