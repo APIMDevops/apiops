@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "description": "transform-LA",
+    "protocol": "http",
+    "resourceId": "https://management.azure.com/subscriptions/86986ba7-9d80-464e-bbed-2157e2dd5997/resourceGroups/Training/providers/Microsoft.Logic/workflows/transform-LA",
+    "url": "https://prod-16.northcentralus.logic.azure.com/workflows/4929c653cfd44de3828fd720a4cade4a/triggers"
+  }
+}

@@ -1,0 +1,21 @@
+<policies>
+	<inbound>
+		<base />
+		<set-backend-service id="apim-generated-policy" backend-id="{{backendIdName}}" />
+		<validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unavailable">
+			<openid-config url="https://login.microsoftonline.com/{{tenant-training}}/v2.0/.well-known/openid-configuration" />
+			<audiences>
+				<audience>{{Aud-Training}}</audience>
+			</audiences>
+		</validate-jwt>
+	</inbound>
+	<backend>
+		<base />
+	</backend>
+	<outbound>
+		<base />
+	</outbound>
+	<on-error>
+		<base />
+	</on-error>
+</policies>
