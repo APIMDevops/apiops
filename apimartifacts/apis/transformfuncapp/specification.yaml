@@ -9,6 +9,7 @@ paths:
   /ParentFunction:
     post:
       summary: ParentFunction
+      description: ParentFunction
       operationId: post-parentfunction
       responses:
         '200':
