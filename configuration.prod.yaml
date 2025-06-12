@@ -4,7 +4,7 @@ namedValues:
     properties:
       displayName: backendIdName
       value: "trainingfunctionappcg"
-   - name: Aud-Training
+  - name: Aud-Training
     properties:
       displayName: Aud-Training
       value: "b8c65e8b-b988-452b-91d4-75ddf6200a79"
