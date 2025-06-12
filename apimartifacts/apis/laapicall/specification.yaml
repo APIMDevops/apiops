@@ -9,6 +9,7 @@ paths:
   /LAapicall:
     post:
       summary: LAapicall
+      description: LAapicall
       operationId: laapicall
       responses:
         '200':
@@ -16,6 +17,7 @@ paths:
   /check:
     post:
       summary: check
+      description: check
       operationId: operationid-check
       parameters:
         - name: empID
