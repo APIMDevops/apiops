@@ -26,7 +26,7 @@ backends:
   - name: TransformFuncApp
     properties:
       url: "https://trainingfunctionappcg.azurewebsites.net/api"
-      resourceId: "https://management.azure.com/subscriptions/86986ba7-9d80-464e-bbed-2157e2dd5997/resourceGroups/Training/providers/Microsoft.Web/sites/helloworldfromprodfuncapp"
+      resourceId: "https://management.azure.com/subscriptions/86986ba7-9d80-464e-bbed-2157e2dd5997/resourceGroups/Training/providers/Microsoft.Web/sites/trainingfunctionappcg"
   - name: LogicApp_transform-LA_Training_86986ba79d80464ebbed2157e2dd5997
     properties:
       url: "https://prod-12.northcentralus.logic.azure.com:443/workflows/a8a040da227346058f9c4ac9df9a5c2e/triggers"
