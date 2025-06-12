@@ -23,7 +23,7 @@ namedValues:
 loggers:
 diagnostics:
 backends:
-  - name: trainingfunctionappcg
+  - name: transformfuncapp
     properties:
       url: "https://trainingfunctionappcg.azurewebsites.net/api"
       resourceId: "https://management.azure.com/subscriptions/86986ba7-9d80-464e-bbed-2157e2dd5997/resourceGroups/Training/providers/Microsoft.Web/sites/trainingfunctionappcg"
